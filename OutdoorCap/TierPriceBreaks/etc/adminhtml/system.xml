@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="example_tab" translate="label" sortOrder="1000">
+            <label>Example tab config</label>
+        </tab>
+        <section id="outdoorcap_tierpricebreaks" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Cart-Level Price Break Customer Groups</label>
+            <tab>catalog</tab>
+            <resource>OutdoorCap_TierPriceBreaks::config</resource>
+            <group id="general" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                <label>Groups</label>
+                <field id="customer" translate="label" type="multiselect" sortOrder="11" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Customers</label>
+                    <source_model>OutdoorCap\TierPriceBreaks\Model\Config\Source\Customer</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
