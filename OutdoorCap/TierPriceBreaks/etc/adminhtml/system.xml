@@ -12,10 +12,12 @@
             <resource>OutdoorCap_TierPriceBreaks::config</resource>
             <group id="general" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                 <label>Groups</label>
+
                 <field id="customer" translate="label" type="multiselect" sortOrder="11" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Customers</label>
                     <source_model>OutdoorCap\TierPriceBreaks\Model\Config\Source\Customer</source_model>
                 </field>
+
                 <field id="group" translate="label" type="multiselect" sortOrder="12" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Groups</label>
                     <source_model>OutdoorCap\TierPriceBreaks\Model\Config\Source\Groups</source_model>
