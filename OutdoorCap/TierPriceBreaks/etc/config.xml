@@ -4,7 +4,7 @@
     <default>
         <outdoorcap_tierpricebreaks>
             <general>
-                <active>1</active>
+                <group>0</group>
             </general>
         </outdoorcap_tierpricebreaks>
     </default>
